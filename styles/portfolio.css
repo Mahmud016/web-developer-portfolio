@@ -95,6 +95,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
+
 /* about section styles */
 .about{
     padding: 130px;
@@ -110,6 +114,55 @@ main{
 .about-info{
     text-align: center;
 }
+
+/* Skill container related style */
+
 #what-i-do-description{
     padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.sikll{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+}
+
+/* resume section */
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+}
+
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-container hr{
+    margin: 30px 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
